@@ -1,10 +1,13 @@
+:root{
+    --primary-color: #fcfbfc;
+    --background-color: #141821;
+    --secondary-color: #ed7117;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --primary-color: #fcfbfc;
-    --background-color: #141821;
-    --secondary-color: #ed7117;
 }
 
 body{
@@ -30,6 +33,12 @@ header a:hover{
     text-decoration: var(--secondary-color) wavy underline;
 }
 
+nav{
+    margin: 0;
+    position: sticky;
+    top: 0;
+}
+
 nav ul{
     list-style-type: none;
     background-color: var(--secondary-color);
@@ -46,7 +55,6 @@ nav a{
 }
 
 nav a:hover{
-    transform: scale(1.2);
     text-decoration: underline;
 }
 
